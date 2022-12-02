@@ -48,7 +48,7 @@ Best HyperParamerts used for our model training.
 
 - ![./scrennshoot/trainingJob.PNG](./scrennshoot/trainingJob.PNG)
 ## Model Deployment
-Model was deployed to a "ml.m5.large" instance type and "inference.py" script is used to setup and deploy our model endpoint.
+Model was deployed to a "ml.m5.large" instance type and "inference.py" script is used to setup and deploy our model endpoint.<br/>
 For testing purposes ,two test images are [Pekingese_07585.jpg,Affenpinscher_00001.jpg]stored in current folder.
 We are reading those test images and try to send those images as input and invoke our deployed endpoin.
 The inference is performed using the Predictor Object.

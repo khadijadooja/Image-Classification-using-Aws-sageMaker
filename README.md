@@ -7,10 +7,10 @@ Enter AWS through the gateway in the course and open SageMaker Studio.
 Download the starter files.
 Download/Make the dataset available. 
 ### files used
-Hpo.py: script is what will train the model.
-Train_model.py: script is what will train model with hook for debugging and profiling our training for best hyperParametrs.
-Train_and_deploy.ipynb : notebook will help to interface with Sagemaker and submit training jobs to it.
-Inference.py : script used for deploying the model, perform some preprocessing (transformations) , serialization- deserialization and predictions/inferences
+- Hpo.py: script is what will train the model.
+- Train_model.py: script is what will train model with hook for debugging and profiling our training for best hyperParametrs.
+- Train_and_deploy.ipynb : notebook will help to interface with Sagemaker and submit training jobs to it.
+- Inference.py : script used for deploying the model, perform some preprocessing (transformations) , serialization- deserialization and predictions/inferences
 
 ## Dataset
 The provided dataset is the dogbreed classification dataset which can be found in the classroom.

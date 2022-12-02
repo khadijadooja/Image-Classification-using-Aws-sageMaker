@@ -38,7 +38,7 @@ Remember that your README should:
 
 ## Debugging and Profiling
 for performed model debugging and profiling in Sagemaker, i added hook to record and keep track of the Loss criterion metrics of the process in training and validation/testing phases.
-![./scrennshoot/cross_Eval.PNG](./scrennshoot/cross_Eval.PNG)
+![./scrennshoot/croos_Eval.PNG](./scrennshoot/croos_Eval.PNG)
 
 ### Results
 with debugging we can check how well our model training is happening. and show us results(parameters+ metrics) of training .

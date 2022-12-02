@@ -52,5 +52,7 @@ Model was deployed to a "ml.m5.large" instance type and "inference.py" script is
 For testing purposes ,two test images are [Pekingese_07585.jpg,Affenpinscher_00001.jpg]stored in current folder.
 We are reading those test images and try to send those images as input and invoke our deployed endpoin.
 The inference is performed using the Predictor Object.
+Endpoint : 
+- ![./scrennshoot/endpoint.PNG](scrennshoot/endpoint.PNG)
 - ![./scrennshoot/resultats_dog.PNG](scrennshoot/resultats_dog.PNG)
 

@@ -44,7 +44,7 @@ for performed model debugging and profiling in Sagemaker, i added hook to record
 with debugging we can check how well our model training is happening. and show us results(parameters+ metrics) of training .
 ![./scrennshoot/log.PNG](./scrennshoot/log.PNG)
 best HyperParamerts used for our model training. 
-![./scrennshoot/HyperParametrs.PNG](./scrennshoot/HyperParametrs.PNG)
+![./scrennshoot/HyperParamerts.PNG](./scrennshoot/HyperParamerts.PNG)
 
 ![./scrennshoot/trainingJob.PNG](./scrennshoot/trainingJob.PNG)
 ## Model Deployment

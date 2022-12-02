@@ -38,19 +38,19 @@ Remember that your README should:
 
 ## Debugging and Profiling
 for performed model debugging and profiling in Sagemaker, i added hook to record and keep track of the Loss criterion metrics of the process in training and validation/testing phases.
-![scrennshoot/cross_Eval.PNG](scrennshoot/cross_Eval.PNG)
+![./scrennshoot/cross_Eval.PNG](./scrennshoot/cross_Eval.PNG)
 
 ### Results
 with debugging we can check how well our model training is happening. and show us results(parameters+ metrics) of training .
-![scrennshoot/log.png](scrennshoot/log.png)
-best HyperParamerts used for our model training
-![scrennshoot/HyperParametrs.png](scrennshoot/HyperParametrs.png)
+![./scrennshoot/log.png](./scrennshoot/log.png)
+best HyperParamerts used for our model training. 
+![./scrennshoot/HyperParametrs.png](./scrennshoot/HyperParametrs.png)
 
-![scrennshoot/trainingJob.png](scrennshoot/trainingJob.png)
+![./scrennshoot/trainingJob.png](./scrennshoot/trainingJob.png)
 ## Model Deployment
 Model was deployed to a "ml.m5.large" instance type and "inference.py" script is used to setup and deploy our model endpoint.
 For testing purposes ,two test images are [Pekingese_07585.jpg,Affenpinscher_00001.jpg]stored in current folder.
 we are reading those test images and try to send those images as input and invoke our deployed endpoin.
 The inference is performed using the Predictor Object.
-![scrennshoot/resultats_dog.png](scrennshoot/resultats_dog.png)
+![./scrennshoot/resultats_dog.png](scrennshoot/resultats_dog.png)
 

@@ -23,7 +23,7 @@ Upload the data to an S3 bucket through the AWS Gateway so that SageMaker has ac
 ## Hyperparameter Tuning
 What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 I use resnet50 with two layer linear nn fully connected. i choose resnet50 model because it's between of the top models classification for image multiclass, resNet50 Is 50 layers deep and is trained on a million images of 1000 categories from the ImageNet database.
-For optimizer i used Adam from torch.optim.
+For optimizer i used Adam from torch.optim.<br/>
 Hyperparameter_ranges :
 - lr : ContinuousParameter(0.001, 0.1),.
 - batch-size : CategoricalParameter([32, 64,128]),.
